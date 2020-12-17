@@ -23,7 +23,7 @@ export const aboutData = {
    chasing after what you're passionate about.`,
   paragraphThree: `I love solving problems and working with creative people. Fortunately for me, software engineering provides both in abundance!`,
   paragraphFour: `Take a look at some of my projects below, check out my resume or flick me an email. I'd love to chat.`,
-  resume: 'https://github.com/rjbullough/Resume/blob/main/Ryan%20Bullough%20-%20Resume.pdf', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1k9fyYJZEwJeXyZePnGvZAyNbF8CFxXMI/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -32,8 +32,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'PAIRSWELL.png',
     title: 'Pairswell',
-    info: 'A food + wine pairing app that delivers the best choices based on user input',
-    info2: 'Built using Vue.js',
+    info: 'A food + wine pairing app that delivers the best choices based on user input.',
+    info2: 'Built using Vue.js and Vuex to manage state - this app weights wine choices based on perfect matches and best pairings.',
     url: 'https://bit.ly/39TIFVf',
     repo: 'https://github.com/rjbullough/seic38-project3', // if no repo, the button will not show up
   },
@@ -42,8 +42,8 @@ export const projectsData = [
     img: 'UNA.jpeg',
     title: 'UNA',
     info:
-      'Daily food intake tracking app that features beautiful data representation and intuitive design',
-    info2: 'Built using Ruby on Rails',
+      'Daily food intake tracking app that features beautiful data representation and intuitive design.',
+    info2: 'Built using Ruby on Rails and featuring a CRUD system utilising PostgreSQL.  Users can sign up and login, add entries and see the macronutrient makeup graphed out for them.',
     url: 'https://bit.ly/2HInsBs',
     repo: 'https://github.com/rjbullough/seic38-project1', // if no repo, the button will not show up
   },
@@ -52,7 +52,7 @@ export const projectsData = [
     img: 'CONNECT4.png',
     title: 'Four in a Row',
     info: '2 player game that mimics the famous Connect 4 game by Mattel',
-    info2: '',
+    info2: 'Built using Vanilla JS, HTML and CSS.  The game adds entries to an array with each move and then checks for a victory state each time.',
     url: 'https://bit.ly/2GbIaJv',
     repo: 'https://github.com/rjbullough/seic38-project0', // if no repo, the button will not show up
   },
@@ -60,8 +60,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: `I'd to chat about what you're building and how I could help`,
-  btn: 'Contact me!',
+  cta: ``,
+  btn: '',
   email: 'rjbullough@gmail.com',
 };
 
