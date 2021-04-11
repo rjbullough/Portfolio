@@ -24,7 +24,7 @@ export const aboutData = {
   paragraphThree: `I love solving problems and working with creative people. Fortunately for me - software engineering provides both in abundance!`,
   paragraphFour: `Browse below to see a few samples of my work, check out my resume or flick me an email - 
    I'd love to chat.`,
-  resume: 'https://github.com/rjbullough/Resume/blob/main/Ryan%20Bullough%20-%20Resume.pdf', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/19lEKtjbjlliYbD1JvODkeEYeWnnck6eA/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -69,11 +69,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/ryan-bullough/',
-    },
     {
       id: nanoid(),
       name: 'github',
