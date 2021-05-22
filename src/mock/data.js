@@ -24,7 +24,7 @@ export const aboutData = {
   paragraphThree: `I love solving problems and working with creative people. Fortunately for me - software engineering provides both in abundance!`,
   paragraphFour: `Browse below to see a few samples of my work, check out my resume or flick me an email - 
    I'd love to chat.`,
-  resume: 'https://drive.google.com/file/d/19lEKtjbjlliYbD1JvODkeEYeWnnck6eA/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1Cyo1IESrjcSkJgodWtyb4irk9gPpVB4z/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -34,8 +34,7 @@ export const projectsData = [
     img: 'PAIRSWELL.png',
     title: 'Pairswell',
     info: 'A food + wine pairing app that delivers the best choices based on user input.',
-    info2:
-      'Built using Vue.js and Vuex to manage state - this app weights wine choices based on perfect matches and best pairings.',
+    info2: 'Built using Vue.js and Vuex.  This app ranks wine pairing based on user food choices.',
     url: 'https://bit.ly/39TIFVf',
     repo: 'https://github.com/rjbullough/seic38-project3', // if no repo, the button will not show up
   },
