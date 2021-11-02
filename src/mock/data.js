@@ -11,30 +11,47 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Ryan Bullough',
-  subtitle: `I'm a web developer / dreamer`,
+  subtitle: `I'm a web developer / Australian Shepherd enthusiast`,
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `After working in the mining industry for 15 years I've made the transition to code.`,
-  paragraphTwo: `At some point in your life you realise there's merit in
-   chasing after what you're passionate about.`,
-  paragraphThree: `I love solving problems and working with creative people. Fortunately for me - software engineering provides both in abundance!`,
-  paragraphFour: `Browse below to see a few samples of my work, check out my resume or flick me an email - 
-   I'd love to chat.`,
-  resume: 'https://drive.google.com/file/d/1Cyo1IESrjcSkJgodWtyb4irk9gPpVB4z/view?usp=sharing', // if no resume, the button will not show up
+  paragraphOne: `After working in the mining industry for 15 years I've recently made the transition to code.`,
+  paragraphTwo: `It definitely wasn't easy - but nothing worth while ever is!`,
+  paragraphThree: `I love chewing on a difficult problem and working with creative people.`,
+  paragraphFour: `Browse below to see a few samples of my work, check out my resume or send me an email with some sweet Aussie Shepherd pics, i'd love to chat!`,
+  resume: 'https://drive.google.com/file/d/1gpNfDNbCiXqNYtYHfnfP4iosJGj1U1Uv/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'VC.png',
+    title: 'Visit Canberra',
+    info: 'A Tourism website designed to surface stand-out local attractions and events.',
+    info2: 'JAMstack website using a headless instance of Drupal 9 and Vue.js.',
+    url: 'https://bit.ly/3w7BW2K',
+    repo: null, // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: '4CBR.png',
+    title: '4 Canberra',
+    info: 'A brouchure website designed to promote a local tourism initiative.',
+    info2: 'Built using Svelte + Sveltekit',
+    url: 'https://bit.ly/3k0yx0S',
+    repo: null, // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'PAIRSWELL.png',
     title: 'Pairswell',
-    info: 'A food + wine pairing app that delivers the best choices based on user input.',
-    info2: 'Built using Vue.js and Vuex.  This app ranks wine pairing based on user food choices.',
+    info:
+      'A food + wine pairing app that delivers the best wine choices based on what a user is eating.',
+    info2: 'Built using Vue.js.',
     url: 'https://bit.ly/39TIFVf',
     repo: 'https://github.com/rjbullough/seic38-project3', // if no repo, the button will not show up
   },
@@ -48,16 +65,6 @@ export const projectsData = [
       'Built using Ruby on Rails and featuring a CRUD system utilising PostgreSQL.  Users can sign up and login, add entries and see the macronutrient makeup graphed out for them.',
     url: 'https://bit.ly/2HInsBs',
     repo: 'https://github.com/rjbullough/seic38-project1', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'CONNECT4.png',
-    title: 'Four in a Row',
-    info: '2 player game that mimics the famous Connect 4 game by Mattel',
-    info2:
-      'Built using Vanilla JS, HTML and CSS.  The game adds entries to an array with each move and then checks for a victory state each time.',
-    url: 'https://bit.ly/2GbIaJv',
-    repo: 'https://github.com/rjbullough/seic38-project0', // if no repo, the button will not show up
   },
 ];
 
